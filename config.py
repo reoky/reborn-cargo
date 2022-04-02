@@ -47,6 +47,7 @@ Version information type: `/cargo version`
 Add happiness: `/cargo happy`
 Remove happiness: `/cargo sad`
 Notification settings: `/cargo notify [full|docked|silent]`
+Locate the boat: `/cargo where` (Especially useful in silent mode)
 
 Note: Due to server maintenance and in-game variance friends will need to re-start and adjust me often.
 

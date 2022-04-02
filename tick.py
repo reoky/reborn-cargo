@@ -19,7 +19,6 @@ async def handle_tick(bot, async_session):
       guilds = result.scalars().all()
   
     for guild in guilds:
-
       await handle_guild_tick(async_session, bot, guild)
 
 #

@@ -36,7 +36,7 @@ class Subscriber(Base):
 class Guild(Base):
   __tablename__ = 'guilds'
   id          = Column(String, primary_key=True, nullable=False)
-  isuser     = Column(Boolean, nullable=False, default=False)
+  isuser      = Column(Boolean, nullable=False, default=False)
   name        = Column(String, nullable=False)
   active      = Column(Boolean, nullable=False, default=False)
   starting    = Column(Integer, nullable=False, default=0)
